@@ -1,6 +1,6 @@
 # DEPRECATED
 
-Main Bulma package is going to support RTL in next release, so this fork is not maintained by me anymore.
+Bulma 0.9.0 supports RTL, so this fork is not maintained anymore.
 
 # Bulma-RTL
 
