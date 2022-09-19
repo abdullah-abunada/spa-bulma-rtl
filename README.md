@@ -19,7 +19,7 @@ Bulma-rtl is constantly in development! Try it out now:
 ### NPM
 
 ```sh
-npm install bulma-rtl
+npm install spa-bulma-rtl
 ```
 
 **or**
@@ -27,13 +27,13 @@ npm install bulma-rtl
 ### Yarn
 
 ```sh
-yarn add bulma-rtl
+yarn add spa-bulma-rtl
 ```
 
 ### Bower
 
 ```sh
-bower install bulma-rtl
+bower install spa-bulma-rtl
 ```
 
 ### Import
