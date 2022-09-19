@@ -1,4 +1,8 @@
-/*! bulma.io v0.7.1 | MIT License | github.com/mohammadrafigh/bulma-rtl */
+/*! bulma.io v0.7.1 | MIT License | https://github.com/abdullah-abunada/spa-bulma-rtln */
+html[dir*="rtl"] {
+  direction: rtl;
+}
+
 body.is-rtl {
   /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
   /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */

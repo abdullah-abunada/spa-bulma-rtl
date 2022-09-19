@@ -41,7 +41,7 @@ After installation, you can use **bulma.css** or **bulma.sass** for **LTR** or *
 (there is no need to include LTR styles to use RTL).
 
 ```css
-import 'bulma-rtl/css/bulma-rtl.css'
+import 'spa-bulma-rtl/css/bulma-rtl.css'
 ```
 ```html
 <body class="is-rtl"></body>
