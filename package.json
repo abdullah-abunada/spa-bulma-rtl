@@ -1,5 +1,5 @@
 {
-  "name": "bulma-rtl",
+  "name": "spa-bulma-rtl",
   "version": "0.8.0",
   "homepage": "https://bulma.io",
   "authors": [
@@ -12,15 +12,20 @@
       "name": "Mohammad Rafigh",
       "email": "mohammad.rafigh@gmail.com",
       "url": "https://lostsemicolon.com"
+    },
+    {
+      "name": "Abdullah Abunada",
+      "email": "eng.a.abunada@gmail.com",
+      "url": ""
     }
   ],
-  "description": "RTL fork of Bulma",
+  "description": "fork of RTL Bulma to support multi language single page applications",
   "main": "bulma-rtl.sass",
   "unpkg": "css/bulma.css",
   "style": "bulma/css/bulma.min.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohammadrafigh/bulma-rtl.git"
+    "url": "https://github.com/abdullah-abunada/spa-bulma-rtl.git"
   },
   "license": "MIT",
   "keywords": [
@@ -31,7 +36,7 @@
     "framework"
   ],
   "bugs": {
-    "url": "https://github.com/mohammadrafigh/bulma-rtl/issues"
+    "url": "https://github.com/abdullah-abunada/spa-bulma-rtl/pulls"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
