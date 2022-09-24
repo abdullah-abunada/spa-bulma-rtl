@@ -243,7 +243,7 @@ $button-static-border-color: $border !default
     display: flex
     width: 100%
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
   &.is-loading
     color: transparent !important
     pointer-events: none
@@ -268,7 +268,7 @@ $button-static-border-color: $border !default
   flex-wrap: wrap
   justify-content: flex-start
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   .button
     margin-bottom: 0.5rem
     &:not(:last-child):not(.is-fullwidth)

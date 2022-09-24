@@ -6,9 +6,9 @@ Bulma 0.9.0 supports RTL, so this fork is not maintained anymore.
 
 Bulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) and this repo keeps the RTL version of it to support multi-language single page applications.
 
-[![npm](https://img.shields.io/npm/v/bulma-rtl.svg)](https://www.npmjs.com/package/bulma-rtl)
-[![npm](https://img.shields.io/npm/dm/bulma-rtl.svg)](https://www.npmjs.com/package/bulma-rtl)
-[![Build Status](https://travis-ci.org/jgthms/bulma.svg?branch=master)](https://travis-ci.org/jgthms/bulma)
+[![npm](https://img.shields.io/npm/v/bulma-rtl.svg)](https://www.npmjs.com/package/spa-bulma-rtl)
+[![npm](https://img.shields.io/npm/dm/bulma-rtl.svg)](https://www.npmjs.com/package/spa-bulma-rtl)
+[![Build Status](https://app.travis-ci.com/abdullah-abunada/spa-bulma-rtl.svg?branch=master)](https://travis-ci.org/jgthms/bulma)
 
 <a href="https://bulma.io"><img src="https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="600"></a>
 
@@ -44,6 +44,7 @@ After installation, you can use **bulma.css** or **bulma.sass** for **LTR** or *
 import 'spa-bulma-rtl/css/bulma-rtl.css'
 ```
 ```html
+<html dir="rtl"></html>
 <body class="is-rtl"></body>
 ```
 Feel free to raise an issue or submit a pull request related to RTL styles.

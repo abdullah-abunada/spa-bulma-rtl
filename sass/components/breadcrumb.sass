@@ -19,14 +19,14 @@ $breadcrumb-item-separator-color: $border-hover !default
     justify-content: center
     padding: $breadcrumb-item-padding-vertical $breadcrumb-item-padding-horizontal
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
     &:hover
       color: $breadcrumb-item-hover-color
   li
     align-items: center
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
     &:first-child a
       padding-#{$left}: 0
     &.is-active
@@ -44,7 +44,7 @@ $breadcrumb-item-separator-color: $border-hover !default
     flex-wrap: wrap
     justify-content: flex-start
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
   .icon
     &:first-child
       margin-#{$right}: 0.5em

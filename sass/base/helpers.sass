@@ -145,52 +145,52 @@ $displays: 'block' 'flex' 'inline' 'inline-block' 'inline-flex'
   .is-#{$display}
     display: #{$display} !important
     @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-      flex-direction: row-reverse
+      flex-direction: row
   +mobile
     .is-#{$display}-mobile
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +tablet
     .is-#{$display}-tablet
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +tablet-only
     .is-#{$display}-tablet-only
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +touch
     .is-#{$display}-touch
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +desktop
     .is-#{$display}-desktop
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +desktop-only
     .is-#{$display}-desktop-only
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +widescreen
     .is-#{$display}-widescreen
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +widescreen-only
     .is-#{$display}-widescreen-only
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
   +fullhd
     .is-#{$display}-fullhd
       display: #{$display} !important
       @if (($right == 'left') and (($display == 'flex') or ($display == 'inline-flex')))
-        flex-direction: row-reverse
+        flex-direction: row
 
 .is-hidden
   display: none !important

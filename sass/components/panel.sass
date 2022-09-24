@@ -67,7 +67,7 @@ $panel-colors: $colors !default
   font-size: $panel-tabs-font-size
   justify-content: center
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   a
     border-bottom: $panel-tab-border-bottom
     margin-bottom: -1px
@@ -90,7 +90,7 @@ $panel-colors: $colors !default
   justify-content: flex-start
   padding: 0.5em 0.75em
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   input[type="checkbox"]
     margin-#{$right}: 0.75em
   & > .control

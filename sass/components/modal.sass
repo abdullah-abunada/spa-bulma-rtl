@@ -41,7 +41,7 @@ $modal-card-body-padding: 20px !default
   &.is-active
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
 
 .modal-background
   @extend %overlay
@@ -86,7 +86,7 @@ $modal-card-body-padding: 20px !default
   padding: $modal-card-head-padding
   position: relative
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
 
 .modal-card-head
   border-bottom: $modal-card-head-border-bottom

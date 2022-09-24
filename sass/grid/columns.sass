@@ -452,7 +452,7 @@ $column-gap: 0.75rem !default
   &.is-mobile
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
   &.is-multiline
     flex-wrap: wrap
   &.is-vcentered
@@ -462,13 +462,13 @@ $column-gap: 0.75rem !default
     &:not(.is-desktop)
       display: flex
       @if ($right == 'left')
-        flex-direction: row-reverse
+        flex-direction: row
   +desktop
     // Modifiers
     &.is-desktop
       display: flex
       @if ($right == 'left')
-        flex-direction: row-reverse
+        flex-direction: row
 
 @if $variable-columns
   .columns.is-variable

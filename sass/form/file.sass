@@ -18,7 +18,7 @@ $file-name-max-width: 16em !default
   justify-content: flex-start
   position: relative
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   // Colors
   @each $name, $pair in $colors
     $color: nth($pair, 1)
@@ -138,7 +138,7 @@ $file-name-max-width: 16em !default
   overflow: hidden
   position: relative
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   &:hover
     .file-cta
       background-color: darken($file-cta-background-color, 2.5%)
@@ -193,6 +193,6 @@ $file-name-max-width: 16em !default
   margin-#{$right}: 0.5em
   width: 1em
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   .fa
     font-size: 14px

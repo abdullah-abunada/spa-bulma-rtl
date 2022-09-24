@@ -5,14 +5,14 @@ $media-border-color: rgba($border, 0.5) !default
   display: flex
   text-align: $left
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   .content:not(:last-child)
     margin-bottom: 0.75rem
   .media
     border-top: 1px solid $media-border-color
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
     padding-top: 0.75rem
     .content:not(:last-child),
     .control:not(:last-child)

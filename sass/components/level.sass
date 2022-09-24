@@ -13,12 +13,12 @@ $level-item-spacing: ($block-spacing / 2) !default
   &.is-mobile
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
     .level-left,
     .level-right
       display: flex
       @if ($right == 'left')
-        flex-direction: row-reverse
+        flex-direction: row
     .level-left + .level-right
       margin-top: 0
     .level-item
@@ -31,7 +31,7 @@ $level-item-spacing: ($block-spacing / 2) !default
   +tablet
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
     & > .level-item
       &:not(.is-narrow)
         flex-grow: 1
@@ -44,7 +44,7 @@ $level-item-spacing: ($block-spacing / 2) !default
   flex-shrink: 0
   justify-content: center
   @if ($right == 'left')
-    flex-direction: row-reverse
+    flex-direction: row
   .title,
   .subtitle
     margin-bottom: 0
@@ -77,7 +77,7 @@ $level-item-spacing: ($block-spacing / 2) !default
   +tablet
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
 
 .level-right
   align-items: center
@@ -86,4 +86,4 @@ $level-item-spacing: ($block-spacing / 2) !default
   +tablet
     display: flex
     @if ($right == 'left')
-      flex-direction: row-reverse
+      flex-direction: row
