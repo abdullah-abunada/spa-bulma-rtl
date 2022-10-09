@@ -336,14 +336,6 @@ body.is-rtl section {
   display: block;
 }
 
-body.is-rtl body,
-body.is-rtl button,
-body.is-rtl input,
-body.is-rtl select,
-body.is-rtl textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
 body.is-rtl code,
 body.is-rtl pre {
   -moz-osx-font-smoothing: auto;
@@ -1178,69 +1170,69 @@ body.is-rtl .is-block {
 
 body.is-rtl .is-flex {
   display: flex !important;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 768px) {
   body.is-rtl .is-flex-mobile {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 769px), print {
   body.is-rtl .is-flex-tablet {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   body.is-rtl .is-flex-tablet-only {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (max-width: 1023px) {
   body.is-rtl .is-flex-touch {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body.is-rtl .is-flex-desktop {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1215px) {
   body.is-rtl .is-flex-desktop-only {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1216px) {
   body.is-rtl .is-flex-widescreen {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1216px) and (max-width: 1407px) {
   body.is-rtl .is-flex-widescreen-only {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1408px) {
   body.is-rtl .is-flex-fullhd {
     display: flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
@@ -1362,69 +1354,69 @@ body.is-rtl .is-inline-block {
 
 body.is-rtl .is-inline-flex {
   display: inline-flex !important;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 768px) {
   body.is-rtl .is-inline-flex-mobile {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 769px), print {
   body.is-rtl .is-inline-flex-tablet {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   body.is-rtl .is-inline-flex-tablet-only {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (max-width: 1023px) {
   body.is-rtl .is-inline-flex-touch {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body.is-rtl .is-inline-flex-desktop {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1215px) {
   body.is-rtl .is-inline-flex-desktop-only {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1216px) {
   body.is-rtl .is-inline-flex-widescreen {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1216px) and (max-width: 1407px) {
   body.is-rtl .is-inline-flex-widescreen-only {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1408px) {
   body.is-rtl .is-inline-flex-fullhd {
     display: inline-flex !important;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
@@ -4005,7 +3997,7 @@ body.is-rtl .tag:not(body) {
   padding-right: 0.75em;
   padding-left: 0.75em;
   white-space: nowrap;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 body.is-rtl .tag:not(body) .delete {
@@ -5204,7 +5196,7 @@ body.is-rtl .file-label {
   justify-content: flex-start;
   overflow: hidden;
   position: relative;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 body.is-rtl .file-label:hover .file-cta {
@@ -5268,7 +5260,7 @@ body.is-rtl .file-icon {
   justify-content: center;
   margin-left: 0.5em;
   width: 1em;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 body.is-rtl .file-icon .fa {
@@ -5853,7 +5845,7 @@ body.is-rtl button.dropdown-item {
   padding-left: 3rem;
   text-align: right;
   white-space: nowrap;
-  width: 100%;
+  width: inherit;
 }
 
 body.is-rtl a.dropdown-item:hover,
@@ -10854,7 +10846,7 @@ body.is-rtl .hero.is-small .hero-body {
 body.is-rtl .hero.is-halfheight .hero-body, body.is-rtl .hero.is-fullheight .hero-body, body.is-rtl .hero.is-fullheight-with-navbar .hero-body {
   align-items: center;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 body.is-rtl .hero.is-halfheight .hero-body > .container, body.is-rtl .hero.is-fullheight .hero-body > .container, body.is-rtl .hero.is-fullheight-with-navbar .hero-body > .container {
@@ -10900,7 +10892,7 @@ body.is-rtl .hero-buttons {
 @media screen and (max-width: 768px) {
   body.is-rtl .hero-buttons .button {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   body.is-rtl .hero-buttons .button:not(:last-child) {
     margin-bottom: 0.75rem;
@@ -10911,7 +10903,7 @@ body.is-rtl .hero-buttons {
   body.is-rtl .hero-buttons {
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   body.is-rtl .hero-buttons .button:not(:last-child) {
     margin-left: 1.5rem;
